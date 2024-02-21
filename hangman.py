@@ -43,7 +43,7 @@ def play(word):
                 guessed = True
         else:
             print("The input is in wrong format, please try again!")
-        print(word_completion)  # Burada word_completion'ı güncellenmiş haliyle yazdırıyoruz
+        print(word_completion)  # Here we print word_completion in its updated form.
         print(display_hangman(tries))
         print("You have", str(tries), "tries left!")
         print("Your previous guessed letters are:", guessed_letters)
